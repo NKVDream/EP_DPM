@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\kmv23\\Desktop\\EP_DPM\\EP_DPM\\Lib_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|c:\\users\\kmv23\\desktop\\ep_dpm\\ep_dpm\\lib_api\\lib_api\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|solutionrelative:lib_api\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|c:\\users\\kmv23\\desktop\\ep_dpm\\ep_dpm\\lib_api\\lib_api\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|solutionrelative:lib_api\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|c:\\users\\kmv23\\desktop\\ep_dpm\\ep_dpm\\lib_api\\lib_api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|solutionrelative:lib_api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|c:\\users\\kmv23\\desktop\\ep_dpm\\ep_dpm\\lib_api\\lib_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|solutionrelative:lib_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|c:\\users\\kmv23\\desktop\\ep_dpm\\ep_dpm\\lib_api\\lib_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|solutionrelative:lib_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|c:\\users\\kmv23\\desktop\\ep_dpm\\ep_dpm\\lib_api\\lib_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|solutionrelative:lib_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|c:\\users\\kmv23\\desktop\\ep_dpm\\ep_dpm\\lib_api\\lib_api\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|solutionrelative:lib_api\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|c:\\users\\kmv23\\desktop\\ep_dpm\\ep_dpm\\lib_api\\lib_api\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|solutionrelative:lib_api\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|c:\\users\\kmv23\\desktop\\ep_dpm\\ep_dpm\\lib_api\\lib_api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|solutionrelative:lib_api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2710452-790B-4ECC-B228-948AA8180558}|Lib_API\\Lib_API.csproj|c:\\users\\kmv23\\desktop\\ep_dpm\\ep_dpm\\lib_api\\lib_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\kmv23\\Desktop\\EP_DPM\\EP_DPM\\Lib_API\\Lib_API\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "Lib_API\\Controllers\\BooksController.cs",
@@ -58,32 +58,33 @@
               "RelativeToolTip": "Lib_API\\Controllers\\BooksController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T13:38:00.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T13:38:00.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kmv23\\Desktop\\EP_DPM\\EP_DPM\\Lib_API\\Lib_API\\Program.cs",
               "RelativeDocumentMoniker": "Lib_API\\Program.cs",
               "ToolTip": "C:\\Users\\kmv23\\Desktop\\EP_DPM\\EP_DPM\\Lib_API\\Lib_API\\Program.cs",
               "RelativeToolTip": "Lib_API\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T13:21:31.091Z"
+              "WhenOpened": "2025-06-03T13:21:31.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\kmv23\\Desktop\\EP_DPM\\EP_DPM\\Lib_API\\Lib_API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Lib_API\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\kmv23\\Desktop\\EP_DPM\\EP_DPM\\Lib_API\\Lib_API\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Lib_API\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA5wDsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T13:29:29.726Z"
+              "WhenOpened": "2025-06-03T13:29:29.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -123,20 +124,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Author.cs",
               "DocumentMoniker": "C:\\Users\\kmv23\\Desktop\\EP_DPM\\EP_DPM\\Lib_API\\Lib_API\\Models\\Author.cs",
               "RelativeDocumentMoniker": "Lib_API\\Models\\Author.cs",
               "ToolTip": "C:\\Users\\kmv23\\Desktop\\EP_DPM\\EP_DPM\\Lib_API\\Lib_API\\Models\\Author.cs",
               "RelativeToolTip": "Lib_API\\Models\\Author.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T13:23:21.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\kmv23\\Desktop\\EP_DPM\\EP_DPM\\Lib_API\\Lib_API\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Lib_API\\Models\\Book.cs",

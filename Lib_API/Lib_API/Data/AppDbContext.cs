@@ -15,14 +15,9 @@ namespace Lib_API.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Book>().ToTable("books");
-            modelBuilder.Entity<Author>().ToTable("authors");
-            modelBuilder.Entity<Genre>().ToTable("genres");
-            modelBuilder.Entity<Reader>().ToTable("readers");
-            modelBuilder.Entity<Loan>().ToTable("loans");
-
             modelBuilder.Entity<Book>(entity =>
             {
+                entity.ToTable("books");
                 entity.Property(b => b.BookId).HasColumnName("book_id");
                 entity.Property(b => b.AuthorId).HasColumnName("author_id");
                 entity.Property(b => b.GenreId).HasColumnName("genre_id");
@@ -39,8 +34,32 @@ namespace Lib_API.Data
                     .HasForeignKey(b => b.GenreId);
             });
 
+            modelBuilder.Entity<Author>(entity =>
+            {
+                entity.ToTable("authors");
+                entity.Property(a => a.AuthorId).HasColumnName("author_id");
+                entity.Property(a => a.Name).HasColumnName("name");
+            });
+
+            modelBuilder.Entity<Genre>(entity =>
+            {
+                entity.ToTable("genres");
+                entity.Property(g => g.GenreId).HasColumnName("genre_id");
+                entity.Property(g => g.Name).HasColumnName("name");
+            });
+
+            modelBuilder.Entity<Reader>(entity =>
+            {
+                entity.ToTable("readers");
+                entity.Property(r => r.ReaderId).HasColumnName("reader_id");
+                entity.Property(r => r.Name).HasColumnName("name");
+                entity.Property(r => r.Phone).HasColumnName("phone");
+                entity.Property(r => r.Email).HasColumnName("email");
+            });
+
             modelBuilder.Entity<Loan>(entity =>
             {
+                entity.ToTable("loans");
                 entity.Property(l => l.LoanId).HasColumnName("loan_id");
                 entity.Property(l => l.BookId).HasColumnName("book_id");
                 entity.Property(l => l.ReaderId).HasColumnName("reader_id");
@@ -58,3 +77,4 @@ namespace Lib_API.Data
         }
     }
 }
+
