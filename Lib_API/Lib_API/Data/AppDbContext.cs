@@ -15,25 +15,46 @@ namespace Lib_API.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Book>()
-                .HasOne(b => b.Author)
-                .WithMany(a => a.Books)
-                .HasForeignKey(b => b.AuthorId);
+            modelBuilder.Entity<Book>().ToTable("books");
+            modelBuilder.Entity<Author>().ToTable("authors");
+            modelBuilder.Entity<Genre>().ToTable("genres");
+            modelBuilder.Entity<Reader>().ToTable("readers");
+            modelBuilder.Entity<Loan>().ToTable("loans");
 
-            modelBuilder.Entity<Book>()
-                .HasOne(b => b.Genre)
-                .WithMany(g => g.Books)
-                .HasForeignKey(b => b.GenreId);
+            modelBuilder.Entity<Book>(entity =>
+            {
+                entity.Property(b => b.BookId).HasColumnName("book_id");
+                entity.Property(b => b.AuthorId).HasColumnName("author_id");
+                entity.Property(b => b.GenreId).HasColumnName("genre_id");
+                entity.Property(b => b.Title).HasColumnName("title");
+                entity.Property(b => b.PublishYear).HasColumnName("publish_year");
+                entity.Property(b => b.Available).HasColumnName("available");
 
-            modelBuilder.Entity<Loan>()
-                .HasOne(l => l.Book)
-                .WithMany(b => b.Loans)
-                .HasForeignKey(l => l.BookId);
+                entity.HasOne(b => b.Author)
+                    .WithMany(a => a.Books)
+                    .HasForeignKey(b => b.AuthorId);
 
-            modelBuilder.Entity<Loan>()
-                .HasOne(l => l.Reader)
-                .WithMany(r => r.Loans)
-                .HasForeignKey(l => l.ReaderId);
+                entity.HasOne(b => b.Genre)
+                    .WithMany(g => g.Books)
+                    .HasForeignKey(b => b.GenreId);
+            });
+
+            modelBuilder.Entity<Loan>(entity =>
+            {
+                entity.Property(l => l.LoanId).HasColumnName("loan_id");
+                entity.Property(l => l.BookId).HasColumnName("book_id");
+                entity.Property(l => l.ReaderId).HasColumnName("reader_id");
+                entity.Property(l => l.LoanDate).HasColumnName("loan_date");
+                entity.Property(l => l.ReturnDate).HasColumnName("return_date");
+
+                entity.HasOne(l => l.Book)
+                    .WithMany(b => b.Loans)
+                    .HasForeignKey(l => l.BookId);
+
+                entity.HasOne(l => l.Reader)
+                    .WithMany(r => r.Loans)
+                    .HasForeignKey(l => l.ReaderId);
+            });
         }
     }
 }
